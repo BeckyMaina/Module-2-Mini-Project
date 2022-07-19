@@ -24,7 +24,7 @@ use of justify-content and align-text
 
 ## links to browser page and github
 
-To browser: 
+To browser: <link>file:///C:/Users/Becky/Desktop/Module-2-Mini-Project/index.html</link>
 
 To githbu: <link> https://github.com/BeckyMaina/Module-2-Mini-Project</link>
 
