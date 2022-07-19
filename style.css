@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100px;
+
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    border-bottom: 10px solid chocolate;
+    background-color: brown;
+    display: flex;
+    justify-content:center;
+    font-weight: thick;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+main{
+    height: 550px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    color: brown;
+    flex-wrap: wrap;
+}
+
+.row1{
+    display: flex;
+    height: 150px;
+    border: 5px solid green;
+}
+
+.row2{
+    display: flex;
+    height: 250px;
+    border: 5px solid green;
+}
+
+.row3{
+    display: flex;
+    height: 100px;
+    border: 5px solid green;
+}
+
+.left{
+    width: 20%;
+    border: 5px solid peru;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.right{
+    width: 80%;
+    border: 5px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration-color: black;
+    justify-content: center space-around ;
+    align-items: center;
+}
+
+.text-left{
+    text-align: bottom left;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: color white;
+    font-weight: thick;
+    font-size: 40px;
+    justify-content: center space-around;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid peru;
+}
+
+.text-right{
+    text-align: right;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: color beige;
+    text-decoration-line: underline;
+    font-weight: thick;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    border: 5px solid peru;
+}
+
+.flex-container{
+    display: flex;
+    background-color: bisque;
+    flex-flow: row wrap;
+    justify-content: center;
+    min-height: 225px;
+}
+
+.card{
+    background-color: beige;
+    width:100px;
+    height: 100px;
+    margin: 40px;
+    padding: 50px;
+    font-size: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.card header >div{
+    padding:1px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: aquamarine;
+}
